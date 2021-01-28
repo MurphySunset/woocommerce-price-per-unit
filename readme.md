@@ -15,17 +15,22 @@ On your product page (backend), you define :
 Then it displays the *price per unit* under the product price.
 
 **:arrow_right: What is the calculation?**
+
 Product price * coefficient
 Example : 500g of coffee priced 10€, unit is kg => 10 * 0.500 => `20,00€ / kg`.
 
 **:arrow_right: Does it handle *variable* products?**
+
 Yes, it uses the lowest priced variation to calculate.
 
 **:arrow_right: Does it handle *on sale* products?**
+
 Yes, it displays the regular price crossed out, and the sale price normally.
 
 **:arrow_right: Does it handle *multiple currencies* shop?**
+
 I don't know but I think it should.
 
 **:nail_care: What about css?**
+
 The *price per unit* lives into a div with `class="price-per-unit"`, so that you can edit your stylesheet to customize the look of this addition.
